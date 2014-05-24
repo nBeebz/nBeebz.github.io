@@ -160,6 +160,7 @@ var courses = {
 
 $(document).delegate("#course", "pageinit", function() {
 	unlockArch();
+	unlockQuizzes();
 });
 
 function unlockArch(){
