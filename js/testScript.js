@@ -51,8 +51,8 @@ var courses = {
 		
 			[
 				["The word println is a(n):", "method", "reserved word", "variable", "class"],
-				["Of the following types, which one cannot store a numeric value?", "char", "all of these can store numeric values", "int", "float"],
-				["What value will z have if we execute the following assignment statement? float z = 5 / 10;", "runtime-error", "z will equal 0.0", "z will equal 0.5", "z will equal 5.0"],
+				["Of the following types, which one cannot store a numeric value?", "all of these can store numeric values", "char", "int", "float"],
+				["What value will z have if we execute the following assignment statement? float z = 5 / 10;", "z will equal 0.0", "runtime-error", "z will equal 0.5", "z will equal 5.0"],
 				["If x is an int and y is a float, all of the following are legal except which assignment statement?", "x = y;", "y = x;", "y = (float) x;", "x = (int) y;"],
 				["What is output with the statement System.out.println(x+y); if x and y are int values where x=10 and y=5?", "15", "105", "x+y", "An error since neither x nor y is a String"]
 			],
