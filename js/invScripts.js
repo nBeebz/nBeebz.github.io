@@ -6,34 +6,34 @@ $(document).delegate("#inventory", "pageinit", function() {
 });
 		
 function equipHead(src, id){
-	var icon = "assets/Icons/head/" + src;
+	var icon = "assets/icons/head/" + src;
 	student.head.img = src;
 	student.head.id = id;
-	$.jStorage.set('pokestud', student);
+	if(!debug) $.jStorage.set('pokestud', student);
 	equip();
 }
 		
 function equipBody(src, id){
-	var icon = "assets/Icons/body/" + src;
+	var icon = "assets/icons/body/" + src;
 	student.body.img = src;
 	student.body.id = id;
-	$.jStorage.set('pokestud', student);
+	if(!debug) $.jStorage.set('pokestud', student);
 	equip();
 }
 
 function equipLegs(src, id){
-	var icon = "assets/Icons/legs/" + src;
+	var icon = "assets/icons/legs/" + src;
 	student.legs.img = src;
 	student.legs.id = id;
-	$.jStorage.set('pokestud', student);
+	if(!debug) $.jStorage.set('pokestud', student);
 	equip();
 }
 		
 function equipHands(src, id){
-	var icon = "assets/Icons/hands/" + src;
+	var icon = "assets/icons/hands/" + src;
 	student.hands.img = src;
 	student.hands.id = id;
-	$.jStorage.set('pokestud', student);
+	if(!debug) $.jStorage.set('pokestud', student);
 	equip();
 }
 

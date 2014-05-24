@@ -42,11 +42,11 @@ function getDebugStud(){
 	var stud = {
 		unlocked : [],
 		score: 50000,
-		gender: {url:'Male Avatar/', id:"male"},
-		head: {img:'Head.png', id:'head-0'},
-		body: {img:'Body.png',  id:'body-0'},
-		hands: {img:'Hands.png', id: 'hands-0'},
-		legs: {img:'Legs.png', id: 'legs-0'},
+		gender: 'male',
+		head: {img:'head.png', id:'head-0'},
+		body: {img:'body.png',  id:'body-0'},
+		hands: {img:'hands.png', id: 'hands-0'},
+		legs: {img:'legs.png', id: 'legs-0'},
 		
 		
 		courseStatus: {
@@ -178,11 +178,11 @@ function getDefaultStud(){
 	var stud = {
 		unlocked : [],
 		score: 500,
-		gender: {url:'Male Avatar/', id:'male'},
-		head: {img:'Head.png', id:'head-0'},
-		body: {img:'Body.png',  id:'body-0'},
-		hands: {img:'Hands.png', id: 'hands-0'},
-		legs: {img:'Legs.png', id: 'legs-0'},
+		gender: 'male',
+		head: {img:'head.png', id:'head-0'},
+		body: {img:'body.png',  id:'body-0'},
+		hands: {img:'hands.png', id: 'hands-0'},
+		legs: {img:'legs.png', id: 'legs-0'},
 		
 		
 		courseStatus: {

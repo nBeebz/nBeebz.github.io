@@ -1,4 +1,4 @@
-debug = false;
+debug = true;
 
 $(document).ready(function(){
 	if(!$.jStorage.storageAvailable()){
@@ -23,8 +23,7 @@ $(document).delegate("#home", "pageinit", function() {
 });
 
 function updateGender(){
-	student.gender.url = $("#sex input[type='radio']:checked").attr('value');
-	student.gender.id =  $("#sex input[type='radio']:checked").attr('id');
+	student.gender =  $("#sex input[type='radio']:checked").attr('id');
 	if(!debug) $.jStorage.set('pokestud', student);
 	equip();
 }
@@ -34,9 +33,9 @@ function updateScore(){
 }
 
 function equip(){
-	$('#'+student.gender.id).attr('checked', true);
-	var sex = 'assets/' + student.gender.url;
-	var icon = 'assets/Icons/';
+	$('#'+student.gender).attr('checked', true);
+	var sex = 'assets/' + student.gender + '/';
+	var icon = 'assets/icons/';
 	var hat =  'head/' + student.head.img;
 	var shirt = 'body/' + student.body.img;
 	var pants = 'legs/' + student.legs.img;
