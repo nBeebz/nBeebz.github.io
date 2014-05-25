@@ -69,7 +69,7 @@ var courses = {
 				["class Equals{<br/>&nbsp;public static void main(String [] args){<br/>&nbsp; int x = 100;<br/>&nbsp; double y = 100.1;<br/>&nbsp; boolean b = (x = y); /* Line 7 */<br/>&nbsp; System.out.println(b);<br/>&nbsp;}<br/>}<br/><br/>What will be the output of the program?", "Compilation fails", "true", "false", "An Exception is thrown at runtime"],
 				["public class Test { }<br/> What is the prototype of it's default constructor?", "public Test( )", "Test()", "Test(void)", "public Test(void)"],
 				["You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?", "default", "public", "private", "protected"],
-				["class A{<br/>&nbsp;protected int method1(int a, int b)<br/>&nbsp{<br/>&nbsp; return 0;<br/>&nbsp;}<br/>}<br/><br/> Which is valid in a class that extends class A?", "public int method1(int a, int b) {return 0; }", "private int method1(int a, int b) { return 0; }", "public short method1(int a, int b) { return 0; }", "static protected int method1(int a, int b) { return 0; }"],
+				["class A{<br/>&nbsp;protected int foo(int a, int b)<br/>&nbsp{<br/>&nbsp; return 0;<br/>&nbsp;}<br/>}<br/><br/> Which is valid in a class that extends class A?", "public int foo(int a, int b) {return 0; }", "private int foo(int a, int b) { return 0; }", "public short foo(int a, int b) { return 0; }", "static protected int foo(int a, int b) { return 0; }"],
 				["Which is a valid declaration within an interface?", "public static short stop = 23;", "protected short stop = 23;", "transient short stop = 23;", "final void madness(short stop);"]
 			]
 		]
