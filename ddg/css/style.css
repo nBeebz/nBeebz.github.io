@@ -1,0 +1,9 @@
+img.hero{
+	max-height: 80px;
+	max-width: 160px;
+}
+
+div.hero{
+	margin-left: 30%;
+	margin-top: 10%;
+}
