@@ -11,18 +11,78 @@
 </head> 
 <body> 
 
-<div data-role="page">
+<div id="home" data-role="page">
+
+	<div data-role="header">
+		<h1>Gettin Tullz</h1>
+	</div>
+	
+	<div data-role="content">	
+		<a href="#rules"><h1>THE RULES</h1></a><br/>
+		<ul data-role="listview" data-filter="true" id="herolist"></ul>
+	</div>
+
+</div>
+
+<div id="hero" data-role="page">
 
 	<div data-role="header">
 		<h1>Gettin Tullz</h1>
 	</div>
 
 	<div data-role="content">	
-		<ul data-role="listview" data-filter="true" id="herolist">
-		</ul>
+		<table id="hero-label"></table>
+		<div style="clear:both">
+			<h2>ULTIMATE ABILITY</h2>
+			<div id="skill-label"></div>
+		</div>
 	</div>
 
 </div>
 
+<div id="rules" data-role="page">
+
+	<div data-role="header">
+		<h1>Gettin Tullz</h1>
+	</div>
+
+	<div data-role="content">	
+		<h1>THE RULES</h1>
+		This game is meant to be played while watching competative dota.<br/>
+		<ul>
+			<li>A drink is considered to be one solid sip from your cup</li>
+			<li>Waterfalling is considered drinking without pause for the specified duration</li>
+			<li>A shot is a pre-measured amount of (preferably) foul-tasting liquid</li>
+			<li>"Distance" is measured by the number of seats between two targets</li>
+		</ul>
+		SETUP:
+		<ol>
+			<li>Up to 10 people should be split into two teams</li>
+			<li>Each player starts with a full cup. This is your "life"</li>
+			<li>There should also be at least 5 shots poured and ready</li>
+			<li>After the drafting phase completes, each team decides who will use which hero.</li>
+			<li>When your cup is empty, (ie. you run out of life), you must take a penalty shot, unless a rule states otherwise</li>
+			<li>All rules are player-enforced, you can cheat if you can get away with it</li>
+			<li>If you are caught consciously cheating, you must take a penalty shot</li>
+		</ol>
+		Take a drink when:
+		<ul>
+			<li>Your hero dies</li>
+			<li>Your team loses a tower</li>
+			<li>Your team loses a barracks</li>
+			<li>The enemy team kills roshan</li>
+		</ul>
+		You are considered to have "inflicted" a drink when:
+		<ul>
+			<li>Your hero kills another hero</li>
+			<li>Your hero gets the last hit on a tower</li>
+			<li>You solo kill roshan</li>
+			<li>You use a skill that makes another player drink</li>
+		</ul>
+		Pay attention to your hero's ability, it may affect the amount you, or people you kill must drink.
+
+	</div>
+
+</div>
 </body>
 </html>
