@@ -194,7 +194,7 @@ var heroes = [
 		name:"Dazzle", 
 		ulti:{
 			name:"Weave",
-			skill:"Any enemy (or ally) who drinks within the next 20/40/60 seconds, must drink one extra (or fewer) drink for every 5 seconds since you yelled 'DAZZLE!'",
+			skill:"Yell 'DAZZLE!'. Any enemy (or ally) who drinks within the next 20/40/60 seconds, must drink one extra (or fewer) drink for every 5 seconds since you yelled 'DAZZLE!'",
 			timed:[20,40,60],
 			uses:1
 		}
