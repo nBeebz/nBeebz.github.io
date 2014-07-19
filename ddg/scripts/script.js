@@ -11,7 +11,8 @@ $(document).ready(function(){
 		if(hero.ulti.setup)	$("#setup-label").html(hero.ulti.setup);
 		$("#skill-label").html(hero.ulti.skill);
 		if(hero.ulti.uses) $("#uses-label").html("You may use this skill "+hero.ulti.uses+" time(s) per life");
-		else $("#uses-label").html("This skill is always active")
+		else $("#uses-label").html("This skill is always active");
+		if(hero.ulti.transform) $("#transform-label").show();
 	});
 });
 
@@ -787,7 +788,7 @@ var heroes = [
 		name:"Ursa", 
 		ulti:{
 			name:"Enrage",
-			skill:"The next time you inflict damage, it counts for an extra amount based on your current health<br/><li>1/3rd full: double</li><li>2/3rds full: triple</li><li>full: quadruple</li>",
+			skill:"The next time you inflict damage, it counts for an extra amount based on your current health<br/><li>1/3rd: double</li><li>2/3rds: triple</li><li>full: quadruple</li>",
 			uses: 1
 		}
 	},
