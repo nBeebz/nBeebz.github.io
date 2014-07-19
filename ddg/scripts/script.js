@@ -595,7 +595,7 @@ var heroes = [
 		name:"Rubick", 
 		ulti:{
 			name:"Spell Steal",
-			ulti:"Use after an enemy uses an ultimate, you may use that ultimate",
+			skill:"Use after an enemy uses an ultimate, you may use that ultimate",
 			uses:3
 		}
 	},
