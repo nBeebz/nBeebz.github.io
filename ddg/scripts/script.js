@@ -13,6 +13,7 @@ $(document).ready(function(){
 		if(hero.ulti.uses) $("#uses-label").html("You may use this skill "+hero.ulti.uses+" time(s) per life");
 		else $("#uses-label").html("This skill is always active");
 		if(hero.ulti.transform) $("#transform-label").show();
+		else $("#transform-label").hide();
 	});
 });
 
