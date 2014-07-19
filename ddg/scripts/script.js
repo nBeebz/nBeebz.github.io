@@ -9,6 +9,7 @@ $(document).ready(function(){
 		$("#hero-label").html(str);
 		$("#name-label").html(hero.ulti.name);
 		if(hero.ulti.setup)	$("#setup-label").html("Setup: "+hero.ulti.setup);
+		else $("#setup-label").hide();
 		$("#skill-label").html(hero.ulti.skill);
 		if(hero.ulti.uses) $("#uses-label").html("You may use this skill "+hero.ulti.uses+" time(s) per life");
 		else $("#uses-label").html("This skill is always active");
