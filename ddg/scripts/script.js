@@ -79,7 +79,8 @@ var heroes = [
 		name:"Bane", 
 		ulti:{
 			name:"Fiends Grip",
-			skill:"Stare an enemy in the eyes and repeatedly whisper 'bane of your existence'. They must waterfall for the duration (no penalty shot).", 
+			skill:"Stare an enemy in the eyes and repeatedly whisper 'bane of your existence'. They must drink every time you do so. 6/8/10 times.",
+			scaling:1,			
 			uses:1
 		}
 	},

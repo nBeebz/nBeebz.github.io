@@ -1,0 +1,364 @@
+
+/********** General CSS **********/
+html, body {
+	margin: 0;
+	padding: 0;
+} 
+
+div.center{
+	width: 50%;
+	display: block;
+	
+	margin-right: auto;
+	margin-right: auto;
+}
+
+h1.center{
+	text-align: center;
+}
+
+.pageTitle{
+	color:#FFD700;
+}
+
+h3.center{
+	text-align: center;
+}
+
+h4{
+	font-family: Ganon;
+	font-size: 150%;
+}
+
+.helpPop-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+.helpPop {
+    width: 70%;
+    border: 1px solid #000;
+    margin-left: 15%;
+    background: rgba(0,0,0,.6);
+	text-shadow: none;
+	color: white;
+}
+
+.score{
+	float:right;
+	padding-top: 3px;
+	padding-left: 3px;
+}
+
+
+
+/******************************/
+
+/********** Title Screen **********/
+#subtitle{
+	font-family: Ganon;
+	font-weight: normal;
+	font-size:1.7em;
+}
+
+#splashTitle{
+	height: 200px;
+}
+
+#splashContainer{
+	height:  650px;
+	padding: 0;
+	margin: 0;
+	background-image: url('../assets/splash.png');
+	background-repeat:no-repeat;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+#splashTitle * {
+	text-align: center;
+}
+
+#sex{
+	padding-left:27px;
+}
+
+#startButtonContainer{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+	width: 150px;
+}
+
+#startBtn{
+	width:130px;
+	font-size:1em;
+}
+
+#spacer{
+	padding-left:15px;
+}
+
+#avatar_title_head{
+	margin-top: -100px;
+	margin-left: -10px;
+	width:175px;
+}
+
+#avatar_title_body{
+	margin-top:-10px;
+	margin-left: -10px;
+	width:175px;
+}
+
+#avatar_title_hands{
+	margin-top:-66px;
+	margin-left: -10px;
+	width:175px;
+}
+
+#avatar_title_legs{
+	margin-top:-18px;
+	margin-left: -10px;
+	width:175px;
+}
+
+#clouds{
+	 width:100%;
+	 height: 100px;
+	 background: transparent url(../assets/cloudScape.png) 0 0px repeat-x; 
+}
+/******************************/
+
+/********** Home Screen **********/
+#home{
+	background: url(../assets/room.png) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: 100% 100%;
+}
+
+#trophieContainer {
+	position:fixed;
+	margin-left:52%;
+}
+
+.trophies {
+	width:23%;
+	margin-top:13%;
+}
+
+#computer {
+	position:fixed;
+	left: 60%;
+	top: 50%;
+	width: 35%;
+}
+
+#reportCard {
+	position:fixed;
+	left: 62%;
+	top: 26%;
+	width: 25%;
+}
+
+.avatarContainer_Home {
+	position:fixed;
+	width:180px;
+	padding-top:40px;
+	margin-top:30%;
+	margin-left:15px;
+}
+
+#avatar_home_head {
+	width:175px;
+}
+
+#avatar_home_body {
+	width:175px;
+	margin-top:-10px;
+}
+
+#avatar_home_hands {
+	width:175px;
+	margin-top:-66px;
+}
+
+#avatar_home_legs {
+	width:175px;
+	margin-top:-18px;
+}
+/******************************/
+
+/********** FaceBook Button **********/
+.fb-like-box {
+
+}
+
+.fb-like-box iframe {
+    width: 280px !important;
+    height: 100px !important;
+}
+/******************************/
+
+/********** Inventory Screen **********/
+#avatar_shop_container{
+	width:45;
+	margin-left:5%;
+	float:left;
+}
+
+#avatar_shop_head{
+	width:175px;
+	margin-top:0px;
+	clear:right;
+}
+
+#avatar_shop_body{
+	width:175px;
+	margin-top:-10px;
+	margin-right:100%;
+}
+
+#avatar_shop_hands{
+	width:175px;
+	margin-top:-66px;
+	margin-right:100%;
+}
+
+#avatar_shop_legs{
+	width:175px;
+	margin-top:-18px;
+}
+
+#invContent{
+	background-color:#007399;
+}
+
+#invWindow{
+	clear:left;
+}
+
+#invLabel{
+	text-align:center;
+	margin-top:40px;
+	padding-right:25%;
+	padding-left:25%;
+	border:5px inset red;
+	background-color:red;
+}
+
+#equipIcons{
+	margin-top:-330px;
+	margin-bottom:20px;
+}
+
+td.equipslot{
+	padding-top: 15px;
+	padding-right: 10px;
+	color:white;
+}
+
+hr { 
+	display: block; 
+	height: 5px;
+    border: 0; 
+	border-top: 5px solid red;
+    margin-bottom: -12px; 
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.invIcon{
+	float:left;
+	padding-right:10px;	
+}
+
+button.buybtn{
+	margin-top:-30px;
+	border-top: none;
+	border-bottom: 10px;
+}
+/****************************************/
+
+/************** Report Card ****************/
+
+#rcContent{
+	width:90%;
+	height:1280 px;
+}
+
+.class{
+	text-align:centre;
+}
+
+.classAvg{
+	position:absolute;
+	right:15%;
+}
+
+.descript1{
+	position:absolute;
+	right:45%;
+}
+
+.descript2{
+	position:absolute;
+	right:30%;
+}
+
+.descript3{
+	position:absolute;
+	right:15%;
+}
+/********** Test Screen ******************/
+#courseSel{
+	text-align:center;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+#CSTbutton{
+	background-color:white;
+	border: 2px solid red;
+	border-radius:5px;
+	color:black;
+	height:30px;
+	font-size:1.8em;
+}
+
+/*****************************************/
+
+
+
+/********** Result Screen ******************/
+img.result{
+	height:1.5em;
+}
+
+.resultGrid *{
+    font-family: Ganon;
+    font-size: 1.5em
+}
+
+/* Add alternating row stripes */
+.table-stripe tbody tr:nth-child(odd) td,
+.table-stripe tbody tr:nth-child(odd) th {
+  background-color: rgba(0,0,0,0.04);
+}
+/* Add stroke to the header and last item */
+.table-stripe thead th,
+.table-stripe tbody tr:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+/********** Course Screen ******************/
+
+#courseDesc{
+	font-family: Ganon;
+	font-size: 1.75em;
+}
+
+#courseInfo{
+	margin-top:30%;
+}
+
+/*****************************************/
