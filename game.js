@@ -7408,7 +7408,6 @@ function MakeWallScene(){
             if(j == numBricksHeight-1 && i == nRow-1){
                 audio = factory.makeMusicPlayerWithPosition(["sound/bgm/yellowcalx.mp3"], brick.components[TAG_GRAPHICS].mesh.position);
                 brick.attach(audio, TAG_AUDIO);
-                audio.play();
             }
             scene.add( brick );
             
@@ -7448,6 +7447,9 @@ function MakeWallScene(){
         },
         "GP_AXIS_LEFT_Y" : function(val){
             scene.input.cameraControl.target.y -= val;
+        },
+        "p" : function(){
+            audio.toggle();
         }
     }
     scene.input.bindControls(cameraControl);
